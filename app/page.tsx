@@ -6,7 +6,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center justify-center">
-          <Image src="/logo-aysnc.png" alt="aysnc labs logo" width={161} height={150} className="object-contain" />
+          <Image src="/logo-aysnc.png" alt="aysnc labs logo" width={100} height={93} className="object-contain" />
           <div className="text-center">
             <h1 className="text-4xl text-black font-serif">Aysnc</h1>
           </div>
@@ -25,14 +25,14 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center space-y-16 relative z-10">
           {/* Hero Section */}
           <section className="space-y-6">
-            <h2 className="text-4xl md:text-6xl font-medium text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text leading-tight">
+            <h2 className="text-4xl md:text-6xl font-normal text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text leading-tight">
               Simplicity is a{" "}
-              <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent font-serif italic font-medium">
+              <span className="font-serif">
                 Superpower
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Handcrafted, enterprise-grade tools. No clutter. Just clean, reliable software.
+              Enterprise consulting and tools.
             </p>
           </section>
 
@@ -43,22 +43,12 @@ export default function HomePage() {
                 Coming Soon
               </span>
             </div>
-            <h3 className="text-2xl font-semibold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
-              More on the way
-            </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We&apos;re building simple, hassle-free tools - designed to do less, better.
+              We&apos;re building something special. Check back later!
             </p>
           </section>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="container mx-auto px-4 py-8 mt-16 border-t border-gray-200">
-        <div className="text-center text-sm text-gray-500">
-          <p>&copy; 2025 Aysnc</p>
-        </div>
-      </footer>
     </div>
   )
 }
