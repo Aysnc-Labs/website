@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="container mx-auto px-4 py-8">
+      <header className="container mx-auto pt-20">
         <div className="flex flex-col items-center justify-center">
           <Image src="/logo-aysnc.png" alt="aysnc labs logo" width={100} height={93} className="object-contain" />
           <div className="text-center">
@@ -14,7 +14,7 @@ export default function HomePage() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-16 relative">
+      <main className="container mx-auto px-4 space-y-20 relative">
         {/* Abstract gradient backgrounds */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-40 -right-32 w-80 h-80 bg-gradient-to-bl from-purple-100/40 via-blue-50/20 to-transparent rounded-full blur-3xl"></div>
@@ -22,7 +22,7 @@ export default function HomePage() {
           <div className="absolute bottom-20 right-1/4 w-64 h-64 bg-gradient-to-tl from-purple-50/30 to-transparent rounded-full blur-2xl"></div>
         </div>
 
-        <div className="max-w-4xl mx-auto text-center space-y-16 relative z-10">
+        <div className="max-w-4xl mx-auto text-center space-y-20 relative z-10">
           {/* Hero Section */}
           <section className="space-y-6">
             <h2 className="text-4xl md:text-6xl font-normal text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text leading-tight">
