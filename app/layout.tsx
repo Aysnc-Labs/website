@@ -18,7 +18,7 @@ const ebGaramond = EB_Garamond({
 })
 
 export const metadata = {
-  title: "Aysnc Labs",
+  title: "Aysnc",
   description: "Simplicity is a super power.",
 }
 

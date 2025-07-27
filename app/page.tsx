@@ -8,7 +8,7 @@ export default function HomePage() {
         <div className="flex flex-col items-center justify-center">
           <Image src="/logo-aysnc.png" alt="aysnc labs logo" width={161} height={150} className="object-contain" />
           <div className="text-center">
-            <h1 className="text-4xl text-black font-serif">Aysnc Labs</h1>
+            <h1 className="text-4xl text-black font-serif">Aysnc</h1>
           </div>
         </div>
       </header>
@@ -56,7 +56,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 mt-16 border-t border-gray-200">
         <div className="text-center text-sm text-gray-500">
-          <p>&copy; 2025 Aysnc Labs</p>
+          <p>&copy; 2025 Aysnc</p>
         </div>
       </footer>
     </div>
