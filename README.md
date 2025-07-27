@@ -1,3 +1,3 @@
 # Aysnc Website
 
-The Aysnc Lanbs website on NextJS deployed to Vercel.
+The Aysnc website on NextJS deployed to Vercel.
